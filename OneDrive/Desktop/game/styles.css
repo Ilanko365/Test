@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #111;
+    background-color: #222;
     font-family: Arial, sans-serif;
 }
 
@@ -14,14 +14,13 @@ body {
 
 #gameCanvas {
     border: 2px solid #fff;
-    background: linear-gradient(to bottom, white, #3b3b6b); /* Gradient background */
+    background-color: #000;
 }
 
 .score-board {
     margin-top: 10px;
     color: #fff;
-    font-size: 22px;
-    text-shadow: 0 0 5px #0ff;
+    font-size: 20px;
 }
 
 .score-board p {
@@ -30,22 +29,19 @@ body {
 
 .score-board span {
     font-weight: bold;
-    color: #0ff;
 }
 
 #playAgain {
-    margin-top: 15px;
-    padding: 12px 30px;
-    font-size: 20px;
-    background: linear-gradient(#0f0, #0a0);
-    color: #fff;
-    border: 2px solid #0f0;
-    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0f0;
+    color: #000;
+    border: none;
     cursor: pointer;
-    transition: transform 0.2s;
+    display: none;
 }
 
 #playAgain:hover {
-    background: linear-gradient(#0c0, #080);
-    transform: scale(1.1);
+    background-color: #0c0;
 }
